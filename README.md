@@ -12,4 +12,4 @@ Handling Constraint 1 : A vertex must only have one color.
 If vertex v4 is colored c5, x45 = 1 and x4i for all possible i is 0. Hence, the condition can be written as x41 + x42 + ... + x4n = 1 (only one of the variables in this equation can be 1 and others must be 0). Hence, 
 
 Handling Constraint 2 : 2 vertices sharing an edge must not be the same color. 
-Suppose x_11, x_12, ..., x_1n are (0, 0, 1, 0, ..., 0). Suppose vertices 1 and 3 share an edge. Then, if x_31, x_32, ..., x_3n are also (0, 0, 1, 0, ..., 0), both vertices are the same color and the second constraint is violated. The penalty associated with violating the second constraint is $\sum^{n}_{j=1} x_{i}{j}$
+Suppose x_11, x_12, ..., x_1n are (0, 0, 1, 0, ..., 0). Suppose vertices 1 and 3 share an edge. Then, if x_31, x_32, ..., x_3n are also (0, 0, 1, 0, ..., 0), both vertices are the same color and the second constraint is violated. The penalty associated with violating the second constraint is $\sum^{n}_{j=1}$ x_{i}{j}
